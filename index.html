@@ -1,14 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/style.css">
     <title>Batman VS l'obsolescence programmée</title>
 </head>
 <body>
     <header class="header">
-        <img class="header__logo" src="/public/img/icons/logo.svg" alt="Sablier en forme de chauve-souris, logo du site">
+        <a class="header__link" href="/index.html"><img class="header__logo" src="/public/img/icons/logo.svg" alt="Sablier en forme de chauve-souris, logo du site"></a>
         <h1 class="header__title1">Batman VS l'obsolescence programmée</h1>
         <img class="header__menuicon" src="/public/img/icons/menu.svg" alt="Icône du menu hamburger">
         <ul class="header__menu menu">
@@ -20,6 +21,50 @@
             <li class="menu__list"><a class="menu__link" href="/apropos.html">À propos</a></li>
         </ul>
     </header>
+
+    <main>
+
+        <article class="article">
+            <figure class="article__figure">
+                <img class="article__img" src="/public/img/batman_de_face.webp" alt="Batman de face">
+                <figcaption class="article__legends">Légende : Batman énervé ©unsplash</figcaption>
+            </figure>
+            <p class="article__text">Je m'appelle Martin Crevoisier, je suis en 1ère année du DUT MMi à Montbéliard. <br />
+                Je réalise dans le cadre de mes études un site pour mobile sur le thème "Bilan carbone d'un super-héros".
+                J'ai choisi Batman en relation avec l'obsolescence programmée.</p>
+            <figure class="article__figure">
+                <img class="article__img" src="/public/img/affiche_film1.webp" alt="Affiche du film Batman : The Dark Knight Rises">
+                <figcaption class="article__legends">Légende : Affiche The Dark Knight Rises ©allocine</figcaption>
+            </figure>
+        </article>
+
+        <section class="section">
+            <div class="section__yellowpart">
+                <img class="section__img" src="/public/img/icons/lenvers_du_décor.svg" alt="Lien vers l'article L'envers du décor">
+                <p class="section__text">Viens découvrir ce qui fait le succès de Batman et pourquoi il peut baisser dans l'estime des gens.</p>
+                <figure class="section__figure">
+                    <img class="section__icon" src="/public/img/icons/arrow.svg" alt="Flèche qui permet la redirection de la page">
+                    <figcaption class="section__legends">Lire la suite</figcaption>
+                </figure>
+            </div>
+            <div class="section__greypart">
+                <img class="section__img" src="/public/img/icons/un_bilan_carbone_desastreux.svg">
+                <p class="section__text">L'emprunte carbone de Batman est démesurée ! Viens voir à quel point il peut-être un anti-héros.</p>
+                <figure class="section__figure">
+                    <img class="section__icon" src="/public/img/icons/arrow.svg" alt="Flèche qui permet la redirection de la page">
+                    <figcaption class="section__legends">Lire la suite</figcaption>
+                </figure>
+
+            <div class="section__yellowpart"></div>
+                <img class="section__img" src="/public/img/icons/diminuer_son_impact_carbone.svg">
+                <p class="section__text">Diminuer son emprunte carbone tout en faisant des économies, c'est possible ! C'est par là que ça se passe.</p>
+                <figure class="section__figure">
+                    <img class="section__icon" src="/public/img/icons/arrow.svg" alt="Flèche qui permet la redirection de la page">
+                    <figcaption class="section__legends">Lire la suite</figcaption>
+                </figure>
+            </div>
+        </section>
+    </main>
 
     <footer class="footer">
         <img class="footer__media" src="/public/img/icons/facebook.svg" alt="Logo de Facebook en gris">

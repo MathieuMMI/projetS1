@@ -1,0 +1,8 @@
+.section::before {
+    content: '';
+    display :block;
+    height : 0;
+    width : 0;
+    border-top : 15px solid red;
+    border-right : 100vw solid transparent;
+}
