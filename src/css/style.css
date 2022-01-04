@@ -1,1 +1,22 @@
  /* Le CSS a été testé avant la fin du HTML afin de vérifier si un triangle jaune pouvait être entièrement réalisé en CSS ou s'il était nécessaire d'importer une image.*/
+
+/* Google font */
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Overpass:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* Vendors */
+@import "/src/css/vendors/normalize.css";
+
+/* Utils */
+@import "/src/css/utils/variables.css";
+
+/* Base du site */
+@import "/src/css/base/main.css";
+@import "/src/css/base/media.css";
+
+/* Layout */
+@import "/src/css/layout/header.css";
+@import "/src/css/layout/footer.css";
+@import "/src/css/layout/menu.css";
+
+/* Components */
+@import "/src/css/components/section.css";
+@import "/src/css/components/article.css";

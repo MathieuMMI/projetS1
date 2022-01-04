@@ -1,0 +1,29 @@
+root {
+/* Color styles */
+--grey_menu: rgba(227, 227, 227, 1);
+--header: rgba(240, 239, 239, 1);
+--home_page_title: rgba(112, 112, 112, 1);
+--yellow: rgba(255, 245, 0, 1);
+--legends: rgba(169, 175, 181, 1);
+--text: rgba(197, 193, 205, 1);
+--footer_text: rgba(215, 211, 224, 1);
+--background: rgba(39, 38, 38, 1);
+--form: rgba(255, 250, 135, 1);
+--formtext: rgba(38, 35, 46, 1);
+
+/* Text-size styles */
+/* base size: textf (18px) */
+--menu_text: 1.56rem;
+--header_title: 1.11rem;
+--title: 1.72rem;
+--textf: 1rem;
+--legendf: 0.72rem;
+--lire_la_suite: 0.72rem;
+--title-2: 2rem;
+--quote: 1.67rem;
+--formtextf: 1.39rem;
+
+/* Text font family */
+--main: "EB Garamond";
+--sub: "Overpass";
+}
