@@ -1,12 +1,12 @@
 .article__title {
     position: relative;
-    bottom: 8.5rem;
+    bottom: 12.5rem;
     text-align: center;
 }
 
 .article__icon {
     position: relative;
-    bottom: 9rem;
+    bottom: 13rem;
     margin-left: 50%;
     transform: rotate(90deg);
     width: 2rem;
@@ -15,10 +15,68 @@
 
 .article__text {
     position: relative;
-    bottom: rem;
 }
 
-.article__gallery {
+.article__gallery1, .article__gallery2 {
     width: 50%;
-    display: flex;
+    position: relative;
+    left: 2rem;
+}
+
+.article__legends1, .article__legends2 {
+    font-size: var(--legendf);
+    font-family: var(--main);
+}
+
+.article__legends1 {
+    position: relative;
+    right: 5rem;
+}
+
+.article__gallery2 {
+    position: relative;
+    bottom: 21.65rem;
+    left: 12.5rem;
+}
+
+.article__legends2 {
+    position: relative;
+    bottom: 21.7rem;
+    left: 5.8rem;
+}
+
+.article__gallery2, .gallery__legends2
+
+.article__elink {
+    color: var(--yellow);
+    text-decoration: underline;
+}
+
+.article__conclusion {
+    padding: 3rem;
+    position: relative;
+}
+
+.article__conclusion .article__pagesp  {
+    position: absolute;
+    left: 0rem;
+    top: 7.5rem;
+}
+
+.article__conclusion .article__pagess {
+    position: absolute;
+    right: 0rem;
+    top: 7.5rem;
+}
+
+.article__conclusion .article__pagesp2 {
+    position: absolute;
+    left: 0rem;
+    top: 11rem;
+}
+
+.article__conclusion .article__pagess2 {
+    position: absolute;
+    right: 0rem;
+    top: 11rem;
 }

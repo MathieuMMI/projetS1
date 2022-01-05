@@ -1,12 +1,15 @@
 .footer {
+    padding-right: 10px;
     margin-top: 10rem;
     background-color: black;
-    height: 11rem;
-    width: 101%;
+    width: 100vw;
+    height: 12rem;
 }
 
 .footer__media, .footer__media1 {
-    margin-left: 2rem;
+    margin-left: 3vh;
+    margin-right: 2vh;
+    text-align: center;
 }
 
 .footer__media1 {
@@ -17,6 +20,4 @@
 
 .footer__text {
     text-align: center;
-    margin: auto;
-    margin-top: 1.7rem;
 }

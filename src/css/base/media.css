@@ -6,6 +6,12 @@ img {
 figure {
     position: relative;
     right: 2.5rem;
+    margin-bottom: 5rem;
+}
+
+figcaption {
+    text-align: center;
+    margin-left: 5rem;
 }
 
 .article__img {
@@ -13,7 +19,12 @@ figure {
     height : 150vw;
 }
 
-figcaption {
-    position: absolute;
-    left: 5rem;
+.article__img2 {
+    width: 100%;
+    margin-left: 2.5rem;
+}
+
+.article__img3 {
+    width: 100vw;
+    height: auto;
 }

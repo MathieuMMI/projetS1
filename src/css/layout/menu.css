@@ -8,5 +8,7 @@
 
 .header__button, .header__menuicone {
     width: 3rem; 
-    margin-right: 0.3rem;
+    position: absolute;
+    left: 85%;
+    top: 35%;
 }
