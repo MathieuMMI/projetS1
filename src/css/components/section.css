@@ -1,18 +1,18 @@
 .section__yellowpart {
     content: '';
-    width  : 20rem;
+    width  : 10rem;
     height : 0;
-    border-top  : 50px solid #F5F506;
-    border-left : 20px solid transparent;
+    border-top  : 10px solid #F5F506;
+    border-left : 10px solid transparent;
 }
 
 .section__yellowpart::after {
         width  : 0;
         height : 0;
         content: '';
-        border-bottom : 50px solid #F5F506;
-        border-right  : 20px solid transparent;
-        border-left   : 20px solid transparent;
+        border-bottom : 10px solid #F5F506;
+        border-right  : 10px solid transparent;
+        border-left   : 10px solid transparent;
         position : absolute;
         top  : -50px;
         right: -20px;

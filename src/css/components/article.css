@@ -1,6 +1,6 @@
 .article__title {
     position: relative;
-    bottom: 8rem;
+    bottom: 8.5rem;
     text-align: center;
 }
 
@@ -9,9 +9,11 @@
     bottom: 9rem;
     margin-left: 50%;
     transform: rotate(90deg);
+    width: 2rem;
+    height: 1.5rem;
 }
 
 .article__text {
     position: relative;
-    bottom: 5rem;
+    bottom: rem;
 }
