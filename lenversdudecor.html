@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/css/style.css">
+    <script src="https://unpkg.com/alpinejs@3.2.2/dist/cdn.min.js"></script>
+	<script src="https://animejs.com/lib/anime.min.js"></script>
+	<script src="src/js/fonctions.js"></script>
     <title>Batman VS l'obsolescence programmée</title>
 </head>
 <body>
@@ -30,11 +33,6 @@
         <article class="article">
             <h2 class="article__title2">L'envers du décor</h2>
             <p class="article__text">Beaucoup pensent que Batman est un super-héros invincible. D’où sa popularité auprès de la génération Y. Sur Netflix, le film “The Dark Knight Rises” est recommandé à 98%. Malgré ça, il peut baisser dans l’estime de la population française. C’est le super-héros qui à l’empreinte carbone la plus élevée.</p>
-            <figure class="article__figure">
-                <video class="article__video" src="/public/video/batman" poster="#"></video>
-                <figcaption class="article__legends">Légende : Batman de dos ©denofgeek</figcaption>
-            </figure>
-
             <div class="article__gallery">
                 <p class="article__text">Le film “The Dark Knight Rises” séduit 98% de personnes sur Netflix. C’est la meilleure recommandation parmi tous les DC Comics ou Marvel. Malgré sa sortie sur grand-écran en 2012. À cette période, il y a 4,5 millions d’entrées au box-office en France. Il est réalisé par Christopher Nolan, qui a réalisé de nombreux films comme :</p>
                 <figure class="article__figure">
@@ -45,7 +43,9 @@
                     <img class="article__gallery2" src="/public/img/begins.webp" alt="Affiche de batman Begins, un film de Christopher Nolan">
                     <figcaption class="article__legends2">Légende : Batman Begins en 2005 <br />©allocine</figcaption>
                 </figure>
-                <figure class="article__figure">
+                <figure class="article__figure"
+                    x-on:mouseover="monterLegende();"
+					x-on:mouseleave="descendreLegende()">
                     <img class="article__gallery1" src="/public/img/dark_knight.webp" alt="Affiche de Batman The Dark Knight, un film de Christopher Nolan">
                     <figcaption class="article__legends1">Légende : The Dark Knight en 2008 <br />©allocine</figcaption>
                 </figure>

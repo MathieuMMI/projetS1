@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/css/style.css">
+    <script src="https://unpkg.com/alpinejs@3.2.2/dist/cdn.min.js"></script>
+    <script src="https://animejs.com/lib/anime.min.js"></script>
+    <script src="src/js/fonctions.js"></script>
     <title>Batman VS l'obsolescence programmée</title>
 </head>
 <body>
@@ -31,9 +34,11 @@
             <h2 class="article__title2">Diminuer son impact carbone</h2>
             <p class="article__text">Batman a suivi les conseils suivants pour mieux <strong class="article__strong"> consommer </strong> . 
             <br />Les <strong class="article__strong"> solutions </strong> existent, chacun d’entre nous peut mettre en place des stratégies au quotidien qui sont simples et rentables pour lutter contre <strong class="article__strong"> l’obsolescence programmée </strong> et diminuer son <strong class="article__strong"> bilan carbone </strong>.</p>
-            <figure class="article__figure">
+            <figure class="article__figure"
+                x-on:mouseover="monterLegende();"
+                x-on:mouseleave="descendreLegende();">
                 <img class="article__img2" src="/public/img/terre.webp" alt="Image de la Terre">
-                <figcaption class="article__legends"></figcaption>
+                <figcaption class="article__legendst">Terre qui chauffe</figcaption>
             </figure>
             <p class="article__text">Pour éviter de gaspiller ce qui est <strong class="article__strong"> réutilisable </strong>, des astuces simples existent :</p>
             <ul class="article__listt">
