@@ -13,8 +13,8 @@
     font-size: var(--title);
     font-family: var(--sub);
     color: var(--home_page_title);
-    margin-top: 1.5rem;
-    margin-right: 2.5rem;
+    margin-top: 1.2rem;
+    margin-right: 3rem;
     text-align: center;
 }
 

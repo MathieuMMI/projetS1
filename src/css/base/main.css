@@ -31,3 +31,11 @@ button {
     padding: 0;
     cursor: pointer;
 }
+
+ul {
+  list-style: none;
+}
+
+li {
+  margin-bottom: 1rem;
+}

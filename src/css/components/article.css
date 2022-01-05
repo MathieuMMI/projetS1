@@ -17,3 +17,8 @@
     position: relative;
     bottom: rem;
 }
+
+.article__gallery {
+    width: 50%;
+    display: flex;
+}

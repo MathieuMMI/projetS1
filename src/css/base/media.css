@@ -14,5 +14,6 @@ figure {
 }
 
 figcaption {
-    margin-left: 6rem;
+    position: absolute;
+    left: 5rem;
 }
