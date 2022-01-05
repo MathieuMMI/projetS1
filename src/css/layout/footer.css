@@ -1,0 +1,25 @@
+.footer {
+    position: absolute;
+    left: 0rem;
+    margin-top: 1.5rem;
+    background-color: var(--footer);
+    height: 11rem;
+    width: 100%;
+    background-color: black;
+}
+
+.footer__media, .footer__media1 {
+    margin-left: 2rem;
+}
+
+.footer__media1 {
+    margin-top: 0.2rem;
+    position: relative;
+    top: 0.2rem;
+}
+
+.footer__text {
+    text-align: center;
+    margin: auto;
+    margin-top: 1.7rem;
+}

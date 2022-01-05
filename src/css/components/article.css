@@ -1,0 +1,17 @@
+.article__title {
+    position: relative;
+    bottom: 8rem;
+    text-align: center;
+}
+
+.article__icon {
+    position: relative;
+    bottom: 9rem;
+    margin-left: 50%;
+    transform: rotate(90deg);
+}
+
+.article__text {
+    position: relative;
+    bottom: 5rem;
+}

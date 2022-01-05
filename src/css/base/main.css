@@ -1,4 +1,29 @@
+/* Modèle de boîte par défaut */
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
 body {
     font-size: var(--textf);
     font-family: var(--main);
+    margin-left: 0.7rem;
+    margin-right: 0.3rem;
+    margin-top: 6rem;
+    background-color: var(--background);
+    color: var(--text);
+}
+
+h2 {
+  color: var(--yellow);
+}
+
+button {
+    -webkit-appearance: none;
+    appearance: none;
+    border: none;
+    background: none;
+    padding: 0;
+    cursor: pointer;
 }

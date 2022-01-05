@@ -1,0 +1,14 @@
+.header__menu {
+    visibility: hidden;
+    opacity: 0;
+    overflow: hidden;
+    position: fixed;
+    display: flex;
+}
+
+.header__button, .header__menuicone {
+    width: 3rem; 
+    position: absolute; 
+    right: 0.3rem;   
+    top: 2rem; 
+}

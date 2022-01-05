@@ -1,8 +1,22 @@
-.section::before {
+.section__yellowpart {
     content: '';
-    display :block;
+    width  : 20rem;
     height : 0;
-    width : 0;
-    border-top : 15px solid red;
-    border-right : 100vw solid transparent;
+    border-top  : 50px solid #F5F506;
+    border-left : 20px solid transparent;
+}
+
+.section__yellowpart::after {
+        width  : 0;
+        height : 0;
+        content: '';
+        border-bottom : 50px solid #F5F506;
+        border-right  : 20px solid transparent;
+        border-left   : 20px solid transparent;
+        position : absolute;
+        top  : -50px;
+        right: -20px;
+}
+
+.section__imgy {
 }
